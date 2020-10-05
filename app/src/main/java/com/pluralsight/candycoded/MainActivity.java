@@ -24,11 +24,18 @@ import com.loopj.android.http.TextHttpResponseHandler;
 
 import cz.msebera.android.httpclient.Header;
 
-
 public class MainActivity extends AppCompatActivity {
     private Candy[] candies;
     private CandyDbHelper candyDbHelper = new CandyDbHelper(this);
 
+    // ***
+    // TODO - Task 1 - Show Store Information Activity
+    // ***
+
+    Intent infoIntent= new Intent(this, InfoActivity.class);
+    startActivity(infoIntent);
+        return super.onOptionsItemSelected(item);
+}
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

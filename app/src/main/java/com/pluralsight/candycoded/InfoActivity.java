@@ -22,9 +22,6 @@ public class InfoActivity extends AppCompatActivity {
                 load(uri).
                 into(candyStoreImageView);
 
-
-    }
-
     // ***
     // TODO - Task 2 - Launch the Google Maps Activity
     // ***
